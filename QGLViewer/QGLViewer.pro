@@ -8,7 +8,7 @@ TEMPLATE = lib
 TARGET = QGLViewer
 VERSION = 2.6.3
 CONFIG *= qt opengl warn_on shared thread create_prl rtti no_keywords
-
+PREFIX=../../HeaderLib/
 QGL_HEADERS = qglviewer.h \
 	  camera.h \
 	  manipulatedFrame.h \
